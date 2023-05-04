@@ -118,13 +118,7 @@
       </div>
     </div>
   </div>
-  <center>
-    <div class="py-5">
-      <a class="mail py-3" href="mailto:company@myhospitul.com">company@myhospitul.com</a>
-      <p class="py-2">No. 8, Adele Close, Rumuodara, Port Harcourt, Nigeria</p>
-      <p><a class="tel" href="tel:07037520334">07037520334</a>,<span><a class="tel" href="tel:09031844175">09031844175</a></span></p>
-    </div>
-  </center>
+<BaSe />
 </section>
 
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -139,10 +133,10 @@
         data-aos-duration="2000"
         data-aos-delay="0"
         data-aos-once="true">
-        <li><router-link class="linkz" to="/" data-bs-dismiss="offcanvas" aria-label="Close">Home</router-link></li>
-        <li><router-link class="linkz" to="/" data-bs-dismiss="offcanvas" aria-label="Close">Demo</router-link></li>
-        <li><router-link class="linkz" to="/" data-bs-dismiss="offcanvas" aria-label="Close">What we do</router-link></li>
-        <li><router-link class="linkz" to="/" data-bs-dismiss="offcanvas" aria-label="Close">FAQ</router-link></li>
+        <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/">Home</router-link></li>
+        <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/demo">Demo</router-link></li>
+        <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/modulesview">What we do</router-link></li>
+        <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/FAQ">FAQ</router-link></li>
       </ul>
     </div>
   </div>
@@ -151,10 +145,12 @@
 
 <script>
 import Navbar from "../components/Navbar.vue"
+import BaSe from "../components/Base.vue"
 export default {
  name: "HomeView",
  components: {
   Navbar,
+  BaSe
  }
 }
 </script>
@@ -231,19 +227,6 @@ export default {
   font-size: 16px;
   letter-spacing: 2px;
   font-weight: 600;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.tel{
-  font-size: 15px;
-  text-decoration: none;
-  padding: 6px;
-  color: rgb(44, 42, 42);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.mail {
-  font-size: 15px;
-  padding: 6px;
-  color: rgb(44, 42, 42);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .offcanvas-title{

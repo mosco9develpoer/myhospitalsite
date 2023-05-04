@@ -29,6 +29,8 @@ async mounted() {
 }
 </script>
 
-<style scoped>
-
+<style>
+.primarycolor {
+  color: rgb(3, 101, 2);
+}
 </style>
