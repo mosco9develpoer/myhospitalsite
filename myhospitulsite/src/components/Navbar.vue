@@ -3,9 +3,9 @@
   <div class="row">
     <div class="col-2">
       <button
-        class="navbar-toggler mx-3 my-2"
-        type="button"
-        @click="showSideMenu()">
+        class="navbar-toggler mx-3 my-2 btn btn-primary"
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"
+        >
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
@@ -36,6 +36,14 @@ name: "NavBar",
   padding-left: 5%;
 }
 .navbar-toggler{
+  border: none;
+}
+.navbar-toggler:hover{
+  background-color: rgb(248,249,250);
+  border: none;
+}
+.navbar-toggler:focus{
+  background-color: rgb(248,249,250);
   border: none;
 }
 </style>

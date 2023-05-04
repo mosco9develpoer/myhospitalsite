@@ -1,4 +1,5 @@
 <template>
+  <Navbar/>
   <div class="my-4">
   <center><p id="into">Digital Healthcare Solution<br> Provider</p></center>
   <center><div class="hrr"></div></center>
@@ -128,21 +129,20 @@
 
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="../assets/myhospitulogo.png" alt="myhospitul_logo" width="40" height="40" class="d-inline-block align-text-top">
+      <p class="fw-900 my-2 title">MY HOSPITUL</p></h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <div>
-      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-    </div>
-    <div class="dropdown mt-3">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-        Dropdown button
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <li><a class="dropdown-item" href="#">Action</a></li>
-        <li><a class="dropdown-item" href="#">Another action</a></li>
-        <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <div class="body">
+      <ul data-aos="zoom-out"
+        data-aos-duration="2000"
+        data-aos-delay="0"
+        data-aos-once="true">
+        <li><router-link class="linkz" to="/" data-bs-dismiss="offcanvas" aria-label="Close">Home</router-link></li>
+        <li><router-link class="linkz" to="/" data-bs-dismiss="offcanvas" aria-label="Close">Demo</router-link></li>
+        <li><router-link class="linkz" to="/" data-bs-dismiss="offcanvas" aria-label="Close">What we do</router-link></li>
+        <li><router-link class="linkz" to="/" data-bs-dismiss="offcanvas" aria-label="Close">FAQ</router-link></li>
       </ul>
     </div>
   </div>
@@ -150,12 +150,16 @@
 </template>
 
 <script>
+import Navbar from "../components/Navbar.vue"
 export default {
- name: "HomeView"
+ name: "HomeView",
+ components: {
+  Navbar,
+ }
 }
 </script>
 
-<style scoped>
+<style>
 #into {
   font-size: 32px;
   font-weight: 500;
@@ -241,6 +245,23 @@ export default {
   padding: 6px;
   color: rgb(44, 42, 42);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.offcanvas-title{
+  display: flex;
+}
+.title {
+  color: rgb(3, 101, 2);
+}
+.linkz{
+  text-decoration: none;
+  color: rgb(130, 132, 133);
+  font-size: 18px;
+}
+li{
+  padding: 10px 0px 20px 0px;
+}
+ul {
+  list-style-type: none;
 }
 @media only screen and (max-width: 600px) {
  #imageset{

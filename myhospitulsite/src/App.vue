@@ -1,11 +1,9 @@
 <template>
-  <Navbar/>
   <router-view/>
   <LoaDer v-if="showLoading"/>
 </template>
 
 <script>
-import Navbar from "../src/components/Navbar.vue"
 import LoaDer from "../src/components/Loader.vue"
 import AOS from 'aos'
 import {mapState} from 'vuex';
@@ -19,8 +17,7 @@ computed:{
     })
   },
 components: {
-  Navbar,
-  LoaDer
+  LoaDer,
 },
 async mounted() {
     AOS.init()
