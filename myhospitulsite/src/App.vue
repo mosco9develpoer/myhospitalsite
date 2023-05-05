@@ -33,4 +33,7 @@ async mounted() {
 .primarycolor {
   color: rgb(3, 101, 2);
 }
+.secondarycolor {
+  color: rgb(77, 75, 75);
+}
 </style>
