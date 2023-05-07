@@ -116,20 +116,17 @@ components: {
 }
 .tex {
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
 }
 .gridnow {
   display:  grid;
 }
 .toptex {
-  font-family: "Times New Roman", Arial;
   font-size: 18px;
   font-weight: 700;
   line-height: 28.2533px;
   color: rgb(56, 118, 29);
 }
 .bottex{
-  font-family: "Times New Roman", Arial;
   font-size: 16px;
   font-weight: 400;
   line-height: 22.08px;

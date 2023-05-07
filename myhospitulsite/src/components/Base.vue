@@ -31,12 +31,10 @@ section {
   text-decoration: none;
   padding: 6px;
   color: rgb(44, 42, 42);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .mail {
   font-size: 15px;
   padding: 6px;
   color: rgb(44, 42, 42);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 </style>

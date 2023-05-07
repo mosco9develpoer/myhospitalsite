@@ -10,10 +10,13 @@
       </button>
     </div>
   <div class="container-fluid col-8">
-    <a class="navbar-brand navvlink" href="#">
-      <img src="../assets/myhospitulogo.png" alt="myhospitul_logo" width="40" height="40" class="d-inline-block align-text-top">
-      <p class="fw-900 my-2 title">MY HOSPITUL</p>
-    </a>
+    <div class="navbar-brand navvlink" style="cursor:pointer" @click="showHome">
+      <div style="display:flex;align-self: center;">
+        <img src="../assets/myhospitulogo.png" alt="myhospitul_logo" height="50" 
+        style="margin-right: 0px;">
+      <p class="title" style="font-weight: bold;margin-top:15px;margin-left: 0px;"><span style="color:red">MY</span>HOSPITUL</p>
+      </div>
+    </div>
   </div>
 </div>
 </nav>
@@ -22,6 +25,11 @@
 <script>
 export default {
 name: "NavBar",
+methods:{
+  showHome(){
+    this.$router.push("/")
+  }
+}
 }
 </script>
 
@@ -31,7 +39,6 @@ name: "NavBar",
 }
 .title {
   font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 2px; 
   padding-left: 5%;
 }

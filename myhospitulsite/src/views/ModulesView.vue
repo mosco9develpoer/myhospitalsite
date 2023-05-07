@@ -113,7 +113,6 @@ components: {
 .tex {
   font-size: 18px;
   font-weight: 600;
-  font-family: Roboto, sans-serif;
 }
 #top {
     width: 90%;
