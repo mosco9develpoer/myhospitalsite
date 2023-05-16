@@ -47,7 +47,6 @@ components: {
 
 <style scoped>
 .head {
-  font-family: Roboto, sans-serif;
   font-size: 49px;
   font-weight: 500;
   line-height: 60.48px;

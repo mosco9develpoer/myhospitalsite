@@ -212,16 +212,12 @@ export default {
   padding: 10px;
   color: rgb(3, 101, 2);
   font-size: 18px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #head{
   font-size: 20px;
   font-weight: 600;
   color: rgb(3, 101, 2);
   padding-top: 20px;
-  font-family: Roboto, sans-serif;
-
-;
 }
 #third{
   margin: 20px 0px 10px 0px;
@@ -253,7 +249,6 @@ export default {
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 2px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #fourth{
   background-color: rgb(230,240,230);
@@ -264,7 +259,6 @@ export default {
   font-size: 16px;
   letter-spacing: 2px;
   font-weight: 600;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .offcanvas-title{
   display: flex;

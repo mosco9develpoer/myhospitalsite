@@ -23,7 +23,7 @@ async mounted() {
     AOS.init()
     this.$router.push("/");
     store.commit(LOADING_SPINNER_SHOW_MUTATION, true);
-      await new Promise(r=>setTimeout(r,1000));
+      await new Promise(r=>setTimeout(r,500));
         store.commit(LOADING_SPINNER_SHOW_MUTATION, false);
   },
 }
@@ -35,5 +35,8 @@ async mounted() {
 }
 .secondarycolor {
   color: rgb(77, 75, 75);
+}
+p{
+  font-family: Segoe UI;
 }
 </style>
