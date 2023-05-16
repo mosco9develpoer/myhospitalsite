@@ -1,6 +1,13 @@
 <template>
+    <head>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  </head>
   <Navbar/>
-  <div class="my-4">
+  <div class="my-4"
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+        data-aos-delay="0"
+        data-aos-once="true">
   <center><p id="into">Digital Healthcare Solution<br> Provider</p></center>
   <center><div class="hrr"></div></center>
 </div>
@@ -8,20 +15,50 @@
 <div class="second">
 <center><div class="row py-2">
   <div class="col-md-4">
-    <img src="../assets/left.png" id="imageset"/>
-    <p class="par">
+    <div class="circ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="white" class="bi bi-person-fill-add bicon" viewBox="0 0 16 16">
+      <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+      <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
+</svg>
+    </div>
+    <div class="triangle-down"></div>
+    <p class="par"
+    data-aos="zoom-in"
+        data-aos-duration="3000"
+        data-aos-delay="0"
+        data-aos-once="true">
       Book physical or virtual medical appointment with any hospital or doctor and get instant feedback in less than one minute
     </p>
   </div>
   <div class="col-md-4">
-    <img src="../assets/center.png" id="imageset"/>
-    <p class="par">
+    <!-- <img src="../assets/center.png" id="imageset"/> -->
+    <div class="circ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="white" class="bi bi-pc-display bicon" viewBox="0 0 16 16">
+      <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z"/>
+</svg>
+    </div>
+    <div class="triangle-down"></div>
+    <p class="par"
+    data-aos="zoom-in"
+        data-aos-duration="3000"
+        data-aos-delay="0"
+        data-aos-once="true">
       Manage, share  and secure all your medical appointment records and patient physical, social and medical history
     </p>
   </div>
   <div class="col-md-4">
-    <img src="../assets/right.png" id="imageset"/>
-    <p class="par">
+    <!-- <img src="../assets/right.png" id="imageset"/> -->
+    <div class="circ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="white" class="bi bi-pc-display-horizontal bicon" viewBox="0 0 16 16">
+      <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z"/>
+      </svg>
+    </div>
+    <div class="triangle-down"></div>
+    <p class="par"
+    data-aos="zoom-in"
+        data-aos-duration="3000"
+        data-aos-delay="0"
+        data-aos-once="true">
       Fast, easy and automated appointment billing and debt tracking system for both patients and hospitals.
     </p>
   </div>
@@ -245,6 +282,23 @@ li{
 }
 ul {
   list-style-type: none;
+}
+.circ{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(3, 101, 2);
+}
+.triangle-down{
+  margin-top: 20px;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 60px solid rgb(3, 101, 2);
+}
+.bicon{
+  transform: translateY(80%);
 }
 @media only screen and (max-width: 600px) {
  #imageset{

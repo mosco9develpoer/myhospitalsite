@@ -23,7 +23,7 @@ async mounted() {
     AOS.init()
     this.$router.push("/");
     store.commit(LOADING_SPINNER_SHOW_MUTATION, true);
-      await new Promise(r=>setTimeout(r,3000));
+      await new Promise(r=>setTimeout(r,1000));
         store.commit(LOADING_SPINNER_SHOW_MUTATION, false);
   },
 }

@@ -54,7 +54,7 @@
     </section>
     <section id="ninth">
       <p class="toptex mt-5 mb-2">How do I get support for MyHospitul application usage?</p>
-      <p class="bottex mb-2">MyHospitul automatically sends an agent to your hospital as a software support personnel, kindly interact and contact the agent for support. If you can't get to the agent, contact us at <a class="primarycolor" href="#">myhospitul@gmail.com.</a></p>
+      <p class="bottex mb-2">MyHospitul automatically sends an agent to your hospital as a software support personnel, kindly interact and contact the agent for support. If you can't get to the agent, contact us at <a class="primarycolor" href="mailto:myhospitul@gmail.com">myhospitul@gmail.com.</a></p>
     </section>
     <section id="tenth">
       <p class="toptex mt-5 mb-2">Can I set user permission for information access on MyHospitul?</p>
