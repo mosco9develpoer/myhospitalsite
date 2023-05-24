@@ -1,7 +1,11 @@
 <template>
  <Navbar/>
 
-  <section class="my-3" id="top">
+  <section class="my-3" id="top"
+  data-aos="zoom-in"
+        data-aos-duration="2000"
+        data-aos-delay="1000"
+        data-aos-once="true">
     <p class="primarycolor tex my-3">MyHospitul Module</p>
     <p class="bdy py-1">Our Hospital Management Software has the following modules;</p>
     <ul class="list">
@@ -91,6 +95,7 @@
         <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/demo">Demo</router-link></li>
         <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/modulesview">What we do</router-link></li>
         <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/FAQ">FAQ</router-link></li>
+        <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/ContactUs">Contact Us</router-link></li>
       </ul>
     </div>
   </div>

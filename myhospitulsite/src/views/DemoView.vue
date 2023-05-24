@@ -27,6 +27,7 @@
         <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/demo">Demo</router-link></li>
         <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/modulesview">What we do</router-link></li>
         <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/FAQ">FAQ</router-link></li>
+        <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/ContactUs">Contact Us</router-link></li>
       </ul>
     </div>
   </div>

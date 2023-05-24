@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import DemoView from '../views/DemoView.vue'
 import ModulesView from '../views/ModulesView.vue'
 import FaQ from '../views/FAQ.vue'
+import ContactUS from '../views/Contact.vue'
 const routes = [
   {
     path: '/',
@@ -23,6 +24,11 @@ const routes = [
     path: '/FAQ',
     name: 'FAQ',
     component: FaQ
+  },
+  {
+    path: '/ContactUs',
+    name: 'ContactUs',
+    component: ContactUS
   }
 ]
 

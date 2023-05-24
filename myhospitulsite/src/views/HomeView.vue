@@ -5,7 +5,7 @@
   <Navbar/>
   <div class="my-4"
         data-aos="zoom-in"
-        data-aos-duration="3000"
+        data-aos-duration="2000"
         data-aos-delay="0"
         data-aos-once="true">
   <center><p id="into">Digital Healthcare Solution<br> Provider</p></center>
@@ -65,7 +65,11 @@
 </div></center>
 </div>
 
-<section id="third">
+<section id="third"
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        data-aos-delay="1000"
+        data-aos-once="true">
 <center>
   <p id="head">OUR DRIVE</p>
   <p class="tex">Customer Centric || Innovation || Excellence</p>
@@ -105,11 +109,15 @@
   </div>
 </center>
 </section>
-
+<Reviews />
 <section id="fourth">
   <center>
   <p id="head" class="py-4">WE ARE VALUE DRIVEN</p></center>
-  <div style="margin: auto auto; width: 90%;">
+  <div style="margin: auto auto; width: 90%;"
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        data-aos-delay="1000"
+        data-aos-once="true">
     <div class="row">
       <div class="col-md-6">
         <div class="row py-3">
@@ -174,6 +182,7 @@
         <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/demo">Demo</router-link></li>
         <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/modulesview">What we do</router-link></li>
         <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/FAQ">FAQ</router-link></li>
+        <li data-bs-dismiss="offcanvas" aria-label="Close"><router-link class="linkz" to="/ContactUs">Contact Us</router-link></li>
       </ul>
     </div>
   </div>
@@ -182,12 +191,14 @@
 
 <script>
 import Navbar from "../components/Navbar.vue"
+import Reviews from "../components/Reviews.vue"
 import BaSe from "../components/Base.vue"
 export default {
  name: "HomeView",
  components: {
   Navbar,
-  BaSe
+  BaSe,
+  Reviews
  }
 }
 </script>
