@@ -109,6 +109,7 @@
   </div>
 </center>
 </section>
+<center><div id="separ"></div></center>
 <Reviews />
 <section id="fourth">
   <center>
@@ -191,7 +192,7 @@
 
 <script>
 import Navbar from "../components/Navbar.vue"
-import Reviews from "../components/Reviews.vue"
+import Reviews from "../components/Review.vue"
 import BaSe from "../components/Base.vue"
 export default {
  name: "HomeView",

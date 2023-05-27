@@ -33,10 +33,21 @@
 
 <script>
 export default {
-name: "ReViews",
+name: "GalLery",
 components: {
 
-}
+},
+// data(){
+//   return{
+//     images: [
+//       { url: '../assets/goodheart1.png', alt: 'goodheartpicture', id:1},
+//       { url: '../assets/goodheart2.png', alt: 'goodheartpicture', id:2},
+//       { url: '../assets/goodheart3.png', alt: 'goodheartpicture', id:3},
+//       { url: '../assets/goodheart4.png', alt: 'goodheartpicture', id:4},
+//       { url: '../assets/goodheart5.png', alt: 'goodheartpicture', id:5}
+//     ]
+//   }
+// },
 }
 </script>
 

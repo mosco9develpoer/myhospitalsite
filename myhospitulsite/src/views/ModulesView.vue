@@ -77,6 +77,7 @@
         </li>
     </ul>
   </section>
+  <Gallery />
   <BaSe/>
 
   <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -104,12 +105,14 @@
 
 <script>
 import BaSe from "../components/Base.vue"
+import Gallery from "../components/Gallery.vue"
 import Navbar from "../components/Navbar.vue"
 export default {
 name: "ModulesView",
 components: {
     Navbar,
-    BaSe
+    BaSe,
+    Gallery
 }
 }
 </script>
