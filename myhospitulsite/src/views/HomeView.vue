@@ -164,6 +164,7 @@
       </div>
     </div>
   </div>
+  <cumtomers />
 <BaSe />
 </section>
 
@@ -193,12 +194,14 @@
 <script>
 import Navbar from "../components/Navbar.vue"
 import Reviews from "../components/Review.vue"
+import cumtomers from "../components/cutomers.vue"
 import BaSe from "../components/Base.vue"
 export default {
  name: "HomeView",
  components: {
   Navbar,
   BaSe,
+  cumtomers,
   Reviews
  }
 }
