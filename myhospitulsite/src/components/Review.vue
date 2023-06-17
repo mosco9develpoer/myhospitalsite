@@ -1,5 +1,5 @@
 <template>
-  <center><p id="into" class="mt-5 pb-2">OUR REVIEWS THUS FAR....</p></center>
+  <center><p id="head" class="mt-2 pb-2">OUR REVIEWS THUS FAR....</p></center>
   <div class="container contain mb-4">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -27,18 +27,7 @@
         </div></center>
       </div>
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
-        <div class="imgz">
-          <center><div class="container">
-          <div class="contain-circle">
-            <img src="../assets/person-circle.svg" class="imgg"/>
-          </div>
-          <p class="tex">Ogunka Gold</p>
-          <p class="tex">KARIDEN SPECIALIST HOSPITAL HOSPITAL</p>
-          <p class="tex">The app is slow. The template is not organized as it ought to be for a hospital software.</p>
-        </div></center>
-      </div>
-    </div>
+
     <div class="carousel-item" data-bs-interval="2000">
         <div class="imgz">
           <center><div class="container">

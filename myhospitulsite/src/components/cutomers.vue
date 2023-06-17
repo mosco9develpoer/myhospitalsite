@@ -1,32 +1,24 @@
 <template>
   <section id="bacc" class="container">
-    <center><p id="into" class="mt-5 pb-2">OUR TRUSTED CUSTOMERS....</p></center>
-    <div class="row container">
-        <div class="col-md-4">
+    <center><p id="head" class="pb-2">OUR CLIENTS....</p></center>
+    <div class="review-container">
+        <div >
             <img src="../assets/Capstone_Hospitals.jpeg" class="image"/>
-            <center><p class="fw-bold h5 py-2">Capstone Hospitals, Omoku</p></center>
         </div>
-        <div class="col-md-4">
+        <div>
             <img src="../assets/Kencrest_private_Hospital.jpeg" class="image"/>
-            <center><p class="fw-bold h5 py-2">Kencrest private Hospitals</p></center>
         </div>
-        <div class="col-md-4">
+        <div>
             <img src="../assets/Goodheart_Hospitals.jpeg" class="image"/>
-            <center><p class="fw-bold h5 py-2">Goodheart Hospitals</p></center>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
+        <div>
             <img src="../assets/Shelterd_specialist_Hospital.jpeg" class="image"/>
-            <center><p class="fw-bold h5 py-2">Shelter'd specialist Hospitals</p></center>
         </div>
-        <div class="col-md-4">
+        <div>
             <img src="../assets/Clared_Hospitals.jpeg" class="image"/>
-            <center><p class="fw-bold h5 py-2">Clared Hospitals</p></center>
         </div>
-        <div class="col-md-4">
+        <div>
             <img src="../assets/Mercyland_Specialist_Hospital.jpeg" class="image"/>
-            <center><p class="fw-bold h5 py-2">Mercyland specialist Hospitals</p></center>
         </div>
     </div>
   </section>
@@ -50,10 +42,18 @@ name: "CusTomers",
   color:rgb(3, 101, 2);
 }
 .image {
-    height: 100px;
-    width: 100%;
+    height: 50px;
 }
-.h5 {
+.review-container{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items:center;
+    column-gap:20px;
+    row-gap:20px
+}
+.review-title{
+    font-size:12px;
     color:rgb(3, 101, 2);
 }
 #bacc:hover {

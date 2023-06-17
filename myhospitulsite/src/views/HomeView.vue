@@ -122,16 +122,20 @@
     <div class="row">
       <div class="col-md-6">
         <div class="row py-3">
-          <div class="col-md-3"><img src="../assets/numone.png"/></div>
+          <div class="col-md-3">
+            <div class="circle"> 28 </div>
+          </div>
           <div class="col-md-9">
-            <p class="topicc">18 Hospital Clients</p>
-            <p class="contxx">Since inception in September 2021, we have partnered with 18 hospitals in Port Harcourt alone</p>
+            <p class="topicc">28 Hospital Clients</p>
+            <p class="contxx">Since inception in September 2021, we have partnered with 28 hospitals in <span style="font-weight: bold;">Port Harcourt, Delta and Akwa Ibom State Nigeria</span></p>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="row py-3">
-          <div class="col-md-3"><img src="../assets/numtwo.png"/></div>
+          <div class="col-md-3">
+            <div class="circle"> 100% </div>
+        </div>
         <div class="col-md-9">
           <p class="topicc">100% Customer retention</p>
           <p class="contxx">So far since 2021, we have had a 100% customer retention</p>
@@ -143,22 +147,22 @@
       <div class="col-md-6">
         <div class="row py-3">
           <div class="col-md-3">
-         <img src="../assets/numthree.png"/>
+            <div class="circle"> 50,000</div>
         </div>
         <div class="col-md-9">
-          <p class="topicc">18 Hospital Clients</p>
-          <p class="contxx">Since inception in September 2021, we have partnered with 18 hospitals in Port Harcourt alone</p>
+          <p class="topicc">Over 50,000 Medical Records</p>
+          <p class="contxx">MyHospitul manages over 50,000 medical records with a daily average of 200 new records amongst all our select hospitals</p>
         </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="row py-3">
           <div class="col-md-3">
-          <img src="../assets/numfour.png"/>
+            <div class="circle"> 3 </div>
         </div>
         <div class="col-md-9">
-          <p class="topicc">100% Customer retention</p>
-          <p class="contxx">So far since 2021, we have had a 100% customer retention</p>
+          <p class="topicc">Across 3 States</p>
+          <p class="contxx">We have a Customer Service Portfolio cutting across 3 States in Nigeria</p>
         </div>
         </div>
       </div>
@@ -271,9 +275,9 @@ export default {
 .topicc{
   padding: 5px;
   color: rgb(3, 101, 2);
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: bold;
 }
 .offcanvas-title{
   display: flex;
@@ -314,5 +318,17 @@ ul {
   height: 60vh;
   width: 60%;
  }
+}
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:rgb(244, 241, 241);
+  font-size: 25px;
+  font-weight:bold;
+  background: radial-gradient(circle, #034e03, rgb(16, 201, 12));
 }
 </style>
