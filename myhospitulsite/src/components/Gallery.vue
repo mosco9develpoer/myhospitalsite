@@ -1,22 +1,32 @@
 <template>
   <center><p id="into" class="mt-5 pb-2">OUR GALLERY</p></center>
-  <div class="container mb-4" style="height: 500px;">
+  <div class="container mb-4">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-  <div class="carousel-inner">
+  <div class="carousel-inner" style="background-color:rgb(3, 101, 2);padding: 20px;">
     <div class="carousel-item active" data-bs-interval="2000">
-      <img src="../assets/goodheart1.png" class="d-block w-100 imgz" alt="...">
+      <center>
+      <img src="../assets/goodheart1.png" class=" imgz" alt="...">
+      </center>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="../assets/goodheart2.png" class="d-block w-100 imgz" alt="...">
+      <center>
+      <img src="../assets/goodheart2.png" class=" imgz" alt="...">
+      </center>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="../assets/goodheart6.png" class="d-block w-100 imgz" alt="...">
+      <center>
+      <img src="../assets/goodheart6.png" class=" imgz" alt="...">
+      </center>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="../assets/goodheart3.png" class="d-block w-100 imgz" alt="...">
+      <center>
+      <img src="../assets/goodheart3.png" class=" imgz" alt="...">
+      </center>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="../assets/goodheart7.png" class="d-block w-100 imgz" alt="...">
+      <center>
+      <img src="../assets/goodheart7.png" class=" imgz" alt="...">
+      </center>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -53,7 +63,8 @@ components: {
 
 <style scoped>
 .imgz {
-    height: 500px;
+  height: 500px;
+
 }
 #into {
   font-size: 32px;

@@ -6,7 +6,7 @@
   <p class="head">DEMO</p>
   <div class="hrrr"></div>
     </div>
-  <iframe width="80%" height="480px" src="https://www.youtube.com/watch?v=TAJkOsUQV2k"></iframe>
+  <iframe width="80%" height="480px" src="https://www.youtube.com/embed/TAJkOsUQV2k" frameborder="0" allowfullscreen></iframe>
 </center>
   </section>
 
@@ -48,15 +48,15 @@ components: {
 
 <style scoped>
 .head {
-  font-size: 49px;
-  font-weight: 500;
-  line-height: 60.48px;
+  font-size: 20px;
+  font-weight: 600;
   color: rgb(3, 101, 2);
+  padding-top: 20px;
 }
 .hrrr {
-  height: 6px;
-  border-radius: 20px;
-  width: 10%;
+  height: 3px;
+  border-radius: 10px;
+  width: 5%;
   background-color: rgb(3, 101, 2);
 }
 </style>
