@@ -4,6 +4,8 @@ import DemoView from '../views/DemoView.vue'
 import ModulesView from '../views/ModulesView.vue'
 import FaQ from '../views/FAQ.vue'
 import ContactUS from '../views/Contact.vue'
+import PolicyVue from '@/views/Policy.vue'
+import DeleteAccount from '@/views/Delete.vue'
 const routes = [
   {
     path: '/',
@@ -29,12 +31,26 @@ const routes = [
     path: '/ContactUs',
     name: 'ContactUs',
     component: ContactUS
+  },
+  {
+    path: '/myhospitulpolicy',
+    name: 'PolicyPage',
+    component: PolicyVue
+  },
+  {
+    path: '/delete-account',
+    name: 'DeleteAccount',
+    component: DeleteAccount
   }
 ]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  async scrollBehavior() {
+    
+ }
+
 })
 
 export default router

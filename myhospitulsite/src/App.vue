@@ -20,8 +20,7 @@ components: {
   LoaDer,
 },
 async mounted() {
-    AOS.init()
-    this.$router.push("/");
+    AOS.init({ once: true });
     store.commit(LOADING_SPINNER_SHOW_MUTATION, true);
       await new Promise(r=>setTimeout(r,500));
         store.commit(LOADING_SPINNER_SHOW_MUTATION, false);
