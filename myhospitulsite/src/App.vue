@@ -38,4 +38,7 @@ async mounted() {
 p{
   font-family: Segoe UI;
 }
+.bck-color{
+  background-color: #146533;
+}
 </style>
