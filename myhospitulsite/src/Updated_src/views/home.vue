@@ -37,16 +37,19 @@
   </nav>
   <Homebody />
   <Solutions />
+  <Base />
 </template>
 
 <script>
 import Homebody from "../components/home-body.vue"
 import Solutions from "../components/solutions.vue"
+import Base from "../components/Base.vue"
 export default {
 name: "Home_view",
 components: {
     Homebody,
-    Solutions
+    Solutions,
+    Base
 }
 }
 </script>

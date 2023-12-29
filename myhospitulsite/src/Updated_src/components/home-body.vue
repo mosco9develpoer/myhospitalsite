@@ -73,7 +73,9 @@ data(){
             },
         ],
         visibleSlide : 0,
-        direction: 'left'
+        direction: 'left',
+        intervalId: null,
+        intervalDuration: 8000,
     }
 },
 computed: {
@@ -81,7 +83,18 @@ computed: {
         return this.slides.length;
     }
 },
+mounted() {
+    this.startAutoSlide();
+  },
 methods: {
+    startAutoSlide() {
+      this.intervalId = setInterval(() => {
+        this.nextSlide();
+      }, this.intervalDuration);
+    },
+    nextSlide() {
+      this.visibleSlide = (this.visibleSlide + 1) % this.slides.length;
+    },
   next(){
     if(this.visibleSlide >= this.Slideslen - 1){
         this.visibleSlide = 0;
@@ -90,6 +103,7 @@ methods: {
     }
     this.direction = "left";
   },
+  
   prev(){
     if(this.visibleSlide <= 0){
         this.visibleSlide = this.Slideslen - 1;

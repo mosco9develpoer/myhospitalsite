@@ -29,6 +29,10 @@ async mounted() {
 </script>
 
 <style>
+* {
+    padding: 0;
+    margin: 0;
+}
 .primarycolor {
   color: rgb(3, 101, 2);
 }
