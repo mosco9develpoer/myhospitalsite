@@ -175,6 +175,13 @@ data(){
                 hospital: "Sacared heart hospital",
                 content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sequi aliquam aspernatur molestias! Perferendis, exercitationem unde! Iste cumque fuga rem, vero eaque similique quasi ratione, fugiat nostrum eius cupiditate obcaecati enim numquam doloribus soluta sapiente voluptate quod"
             },
+            {
+                id: 6,
+                image: require("../../assets/person-circle.svg"),
+                doctor: "Dr Chisom Balogun",
+                hospital: "Sacared heart hospital",
+                content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sequi aliquam aspernatur molestias! Perferendis, exercitationem unde! Iste cumque fuga rem, vero eaque similique quasi ratione, fugiat nostrum eius cupiditate obcaecati enim numquam doloribus soluta sapiente voluptate quod"
+            },
         ],
     }
 },

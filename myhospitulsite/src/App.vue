@@ -45,4 +45,26 @@ p{
 .bck-color{
   background-color: #146533;
 }
+.flexthem {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    border-radius: 30px;
+    height: 40px;
+}
+.indic {
+    overflow: hidden;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    transform: translateX(80px)
+}
+.indicnext {
+    width: 380px;
+    text-align: end;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: whitesmoke;
+}
 </style>
