@@ -1,4 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
+
+import store from "../store/store";
+import {
+  LOADING_SPINNER_SHOW_MUTATION,
+} from "../store/storeconstants";
+
 import HomeView from '../Updated_src/views/home.vue'
 import DemoView from '../Updated_src/views/Demo.vue'
 import ModulesView from '../views/ModulesView.vue'
@@ -48,7 +54,10 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
   async scrollBehavior() {
-    
+    store.commit(LOADING_SPINNER_SHOW_MUTATION, true);
+      await new Promise(r=>setTimeout(r,2000));
+        store.commit(LOADING_SPINNER_SHOW_MUTATION, false);
+      document.getElementById('home').scrollIntoView({behavior:'smooth'});
  }
 
 })

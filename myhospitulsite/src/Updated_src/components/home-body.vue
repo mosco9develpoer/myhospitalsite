@@ -27,7 +27,7 @@
 
                     <div class="butonz">
                         <button class="price button">Pricing</button>
-                        <button class="demo button">Play Demo</button>
+                        <button class="demo button"> <router-link class="linkz" to="/demo">Play Demo</router-link></button>
                     </div>
 
                     <h4 style="font-size: 12px; color: rgb(78, 77, 77); margin-top: 20px; position: absolute; bottom: 60px;">Get one month free subscription on your first month installation</h4>
@@ -189,5 +189,9 @@ methods: {
 .imggg {
     scale: 1.3;
 
+}
+.linkz {
+    text-decoration: none;
+    color: black;
 }
 </style>

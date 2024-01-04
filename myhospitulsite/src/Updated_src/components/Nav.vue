@@ -10,23 +10,23 @@
     </section>
     <section id="body_top">
         <div class="row">
-            <div class="col-3" style="display: flex;">
-                <img src="../../assets/myhospitulogo.png" id="logo"/>
+            <div class="col-3" style="display: flex;"> <router-link to="/">
+                <img src="../../assets/myhospitulogo.png" id="logo"/></router-link>
                 <p style="padding-top: 42px; font-size: 18px; margin-left: -55px; color: red;">My<span style="color: #146533;">Hospitul</span></p>
             </div>
             <div class="col-4">
                 <div class="row" style="margin-top: 45px;">
                     <div class="col-3">
-                        <p class="linkz">Solutions</p>
+                        <a class="linkz" href="#solutions">Solutions</a>
                     </div>
                     <div class="col-3">
-                        <p class="linkz">FAQS</p>
+                        <router-link class="linkz" to="/FAQ">FAQS</router-link>
                     </div>
                     <div class="col-3">
-                        <p class="linkz">Contact Us</p>
+                        <router-link class="linkz" to="/ContactUs">Contact Us</router-link>
                     </div>
                     <div class="col-3">
-                        <p class="linkz">Play Demo</p>
+                        <router-link class="linkz" to="/demo">Play Demo</router-link>
                     </div>
                 </div>
             </div>
@@ -73,5 +73,6 @@ name: "Nav_bar",
 .linkz {
     font-size: 13px;
     color: black;
+    text-decoration: none;
 }
 </style>

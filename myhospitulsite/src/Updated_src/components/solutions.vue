@@ -1,4 +1,5 @@
 <template>
+    <section id="solutions">
   <div class="bodyy bck-color">
     <h4 style="color: white; font-size: 30px; padding: 0px 0px 50px 0px;">Solutions</h4>
     <div class="row">
@@ -7,6 +8,10 @@
         </div>
     </div>
   </div>
+</section>
+
+
+
 
   <section id="iconz">
    <div class="row">
