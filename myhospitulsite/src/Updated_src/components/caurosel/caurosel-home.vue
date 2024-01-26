@@ -60,4 +60,10 @@ button:focus , button:hover {
   border-start-end-radius: 10px;
   border-end-end-radius: 10px;
 }
+@media only screen and (max-width: 600px){
+    .caurosel {
+      scale: 1.0;
+    }
+   
+}
 </style>

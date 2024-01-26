@@ -10,18 +10,18 @@
         </div>
     </section>
 
-    <h4 style="font-size: 50px; width: 60%;">Digital Health Solution at your beck and call on MyHosipitul</h4>
+    <h4 class="introtext">Digital Health Solution at your beck and call on MyHosipitul</h4>
     
 </center>
 <div class="caurosel-body">
         <caurosel
         @next="next"
-        @prev="prev" style="width: 80%;">
+        @prev="prev" id="widthcaro">
             <caurosel-slide v-for="(slide,index) in slides" :key="slide.id" :index="index"
             :visibleSlide = "visibleSlide" :direction="direction">
             
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6">
                     <h4 class="titlez">{{ slide.title }}</h4>
                     <h4 class="contx">{{ slide.body }}</h4>
 
@@ -32,7 +32,7 @@
 
                     <h4 style="font-size: 12px; color: rgb(78, 77, 77); margin-top: 20px; position: absolute; bottom: 60px;">Get one month free subscription on your first month installation</h4>
                 </div>
-                <div class="col-6 imgs">
+                <div class="col-md-6 imgs">
                     <img :src="slide.images" class="imggg"/>
                 </div>
             </div>
@@ -193,5 +193,48 @@ methods: {
 .linkz {
     text-decoration: none;
     color: black;
+}
+.introtext {
+    font-size: 50px;
+    width: 60%;
+}
+#widthcaro {
+    width: 80%;
+}
+@media only screen and (max-width: 600px){
+  .flexthem{
+    scale: 0.9;
+    transform: translateX(-120px);
+  }
+  .introtext {
+    margin-top: -20px;
+    font-size: 40px;
+    width: 80%;
+  }
+  .titlez {
+    font-size: 20px;
+    padding: 0;
+  }
+  .contx {
+    font-size: 13px;
+    font-weight: 500;
+    width: 100%;
+    line-height: 20px;
+    padding-bottom: 15px;
+  }
+  .imgs {
+    border-radius: 10px;
+    overflow: visible;
+    padding: 0;
+    height: 200px;
+}
+#widthcaro {
+    width: 100%;
+}
+.imggg {
+    scale: 1.0;
+    width: 300px;
+    height: 180px;
+}
 }
 </style>

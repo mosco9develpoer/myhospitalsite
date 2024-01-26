@@ -69,7 +69,7 @@
 </template>
 
 <script>
-import Navbar from "../components/Navbar.vue"
+import Navbar from "../Updated_src/components/Nav.vue"
 import BaSe from "../components/Base.vue"
 export default {
 name: "ContactUs",

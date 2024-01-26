@@ -148,7 +148,7 @@
 
 <script>
 import Base from "../components/Base.vue"
-import Navbar from "../components/Navbar.vue"
+import Navbar from "../Updated_src/components/Nav.vue"
 export default {
 name: "FaQ",
 components: {

@@ -67,4 +67,13 @@ p{
     border-radius: 30px;
     background-color: whitesmoke;
 }
+@media only screen and (max-width: 600px){
+  .flexthem{
+    scale: 0.9;
+    transform: translateX(-120px);
+  }
+  .introtext {
+    font-size: 40px;
+  }
+}
 </style>

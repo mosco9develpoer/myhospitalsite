@@ -2,6 +2,7 @@
   <section id="basez">
     <div class="row">
         <div class="col-md-3 p-5">
+            <img src="../../assets/myhospitul_name_logo.png" id="logo2"/>
             <h4 class="head">Contact Us</h4>
             <p class="tex">07015339817</p>
             <p class="tex">info@myhospitul.com</p>
@@ -31,13 +32,13 @@
                 <img src="../../assets/myhospitul_name_logo.png" id="logo"/>
             </div>
         </div>
-        <div class="col-3 p-5">
+        <div class="col-md-3 p-5">
             <h4 class="head">Explore</h4>
             <p class="tex">About Us</p>
             <p class="tex">Health New</p>
             <p class="tex">FAQs</p>
         </div>
-        <div class="col-6 p-5">
+        <div class="col-md-6 p-5">
             <h4 class="head">Sales</h4>
             <p class="tex">Pricing and Plan</p>
             <p class="tex">Request a demo</p>
@@ -76,6 +77,9 @@ name: "Ba_se",
     transform: translateY(65px);
     margin-left: -15px;
 }
+#logo2 {
+    display: none;
+}
 #mail {
     width: 70%;
     height: 60px;
@@ -92,5 +96,16 @@ name: "Ba_se",
 }
 #social:hover {
     color: #95FD92;
+}
+@media only screen and (max-width: 600px){
+    #logo {
+        display: none;
+}
+    #logo2 {
+    transform: translateY(0px);
+    margin-left: -15px;
+    display: block;
+}
+   
 }
 </style>
