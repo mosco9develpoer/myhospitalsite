@@ -25,7 +25,7 @@
             <div class="col-md-4">
                 <div class="row" style="margin-top: 45px;">
                     <div class="col-3">
-                        <router-Link class="linkz" to="/modulesview">Solutions</router-Link>
+                        <router-Link class="linkz" to="/modulesview">Module</router-Link>
                     </div>
                     <div class="col-3">
                         <router-link class="linkz" to="/FAQ">FAQS</router-link>
